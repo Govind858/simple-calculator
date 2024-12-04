@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    
+  
+
+
+    <div class="calc">
+
+      <div class="main">
+       <h2>simple calculator</h2>
+
+       <div class="input">
+      <input class="item" type="text" placeholder="Enter the first number" id="first-textfield">  
+      <input class=item type="text" placeholder="Enter the second number" id="second-textfield"> 
+    </div>
+
+<div  class="operators">
+      <button class="items"  onclick="add()">+</button>
+      <button class="items" onclick="sub()">-</button>
+      <button class="items" onclick="div()">/</button>
+      <button class="items" onclick="multi()">x</button>
+    
+</div>
+
+<div class="res">
+      <h1 class="Result" id="result"></h1>  
+</div>
+
+
+
+    </div>
+    </div>
+
+      <script>
+          function add(){
+           let num1 = document.getElementById('first-textfield').value
+           let num2 = document.getElementById('second-textfield').value
+           console.log(parseInt(num1) + parseInt(num2))
+           document.getElementById('result').innerHTML = parseInt(num1) + parseInt(num2)
+          }
+
+          function sub(){
+            num1 = document.getElementById('first-textfield').value
+            num2 = document.getElementById('second-textfield').value
+            let res = parseInt(num1) -  parseInt(num2)
+            document.getElementById('result').innerHTML = (res)
+           
+          }
+
+          function multi(){
+            num1 = document.getElementById('first-textfield').value
+            num2 = document.getElementById('second-textfield').value
+            let res = parseInt(num1) *  parseInt(num2)
+            document.getElementById('result').innerHTML = (res)
+           
+          }
+
+          function div(){
+            num1 = document.getElementById('first-textfield').value
+            num2 = document.getElementById('second-textfield').value
+            let res = parseInt(num1) /  parseInt(num2)
+            document.getElementById('result').innerHTML = (res)
+           
+          }
+
+
+
+
+       
+      </script>
+
+
+</body>
+</html>

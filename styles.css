@@ -1,0 +1,147 @@
+
+  /* .calc{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-column: 1/3;
+  }
+
+
+  .item {
+    width: 281px;
+    height: 77px;
+} */
+
+/* body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.calc {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+.item {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+} */
+
+body{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+h2{
+  color: white;
+ font-family: sans-serif;
+ margin-left: 43px;
+}
+
+.calc{
+  display: flex;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(50, 48, 48);
+  align-content: center;
+  justify-content: center;
+ border-radius: 16px;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  height: 102px;
+  width: 300px;
+  margin-top: 33px;
+  gap: 9px;
+
+}
+
+.item{
+  height: 40px;
+  border-radius: 24px;
+}
+
+.operators{
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 300px;
+  gap: 4px;
+  margin-top: 15px;
+  margin-left: 61px;
+}
+
+.items{
+  width: 40px;
+  border-radius: 50%;
+}
+
+input::placeholder{
+  font-family: sans-serif;
+  font-size: 15px;
+  padding-left: 30px;
+}
+
+.main{
+  margin-left: 49px;
+}
+
+/* .res{
+  width: 150px;
+  height: 80px;
+  background-color: white;
+} */
+
+h1{
+  color: white;
+}
+
+input{
+  font-size: 18px;
+  padding-left: 30px;
+  font-family: sans-serif;
+}
